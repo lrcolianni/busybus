@@ -1,0 +1,82 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F2232;
+  font-size:62.5%;
+    text-align: center;
+    width: 375px;
+}
+#newroute{
+  text-align: center;
+  font-size: 3em;
+  font-style: SF Pro Display;
+  font-style: italic;
+  color: #FBFFF1;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#washington {
+  color: #000;
+  background-color: #fff;
+  padding: 0.75em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2.5em;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+
+
+.number, .stop, .minutes {
+  color: #FBFFF1;
+  font-size: 1.5em;
+  width: 375px;
+  height; 20px;
+  text-align: left;
+}
+
+.bounds{
+  background-color: #FAEC8C;
+  font-size: 1.75em;
+  padding: 0.5em;
+}
+
+.number {
+  text-align: left;
+  padding-top: 2em;
+  width: 15%;
+  display: inline-block;
+}
+
+.stop{
+  width: 25%;
+  display: inline-block;
+}
+
+.minutes{
+  width: 35%;
+  display: inline-block;
+}
+.map {
+  width: 375px;
+  height: 35em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+@media screen and (max-width: 375px){
+
+.container{
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+}
