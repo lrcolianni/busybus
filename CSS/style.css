@@ -17,6 +17,7 @@ body {
   color: #FBFFF1;
   padding-top: 2em;
   padding-bottom: 1em;
+  width: 45%;
 }
 
 #washington {
@@ -31,7 +32,17 @@ body {
   border-radius: 5px;
 }
 
-
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: inline-block;
+}
+#plus, #backarrow{
+  color: #FBFFF1;
+  font-size: 2em;
+  width: 20%
+}
 
 .number, .stop, .minutes {
   color: #FBFFF1;
@@ -82,6 +93,10 @@ body {
   background-position: center;
   background-size: cover;
 }
-.arrow{
+#arrow{
   color: #FBFFF1;
+  padding-right: 1.5em;
+  padding-top: 0.20em;
+  font-size: 1.25em;
+  text-align: center;
 }
