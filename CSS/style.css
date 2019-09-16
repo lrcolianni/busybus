@@ -35,8 +35,6 @@ body {
 .number, .stop, .minutes {
   color: #FBFFF1;
   font-size: 1.5em;
-  width: 375px;
-  height; 20px;
   text-align: left;
 }
 
@@ -48,7 +46,6 @@ body {
 
 .number {
   text-align: left;
-  padding-top: 2em;
   width: 15%;
   display: inline-block;
 }
@@ -56,6 +53,17 @@ body {
 .stop{
   width: 25%;
   display: inline-block;
+}
+
+
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px;
+  border-color: #FBFFF1;
 }
 
 .minutes{
@@ -68,15 +76,4 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-
-
-@media screen and (max-width: 375px){
-
-.container{
-  flex-direction: column;
-  flex-wrap: wrap;
-
-}
 }
