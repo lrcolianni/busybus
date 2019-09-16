@@ -46,7 +46,7 @@ body {
 }
 
 .number {
-  text-align: left;
+  text-align: center;
   width: 15%;
   display: inline-block;
 }
@@ -54,6 +54,7 @@ body {
 .stop{
   width: 25%;
   display: inline-block;
+  text-align: center;
 }
 
 
@@ -72,6 +73,7 @@ body {
 .minutes{
   width: 35%;
   display: inline-block;
+  text-align: center;
 }
 .map {
   width: 375px;
@@ -79,4 +81,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.arrow{
+  color: #FBFFF1;
 }
