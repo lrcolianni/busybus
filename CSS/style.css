@@ -5,7 +5,10 @@
 
 html {
   background-color: #fff;
+}
 
+.statusbar{
+  width: 375px;
 }
 body {
   background-color: #1F2232;
