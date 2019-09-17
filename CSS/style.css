@@ -41,7 +41,7 @@ body {
 #plus, #backarrow{
   color: #FBFFF1;
   font-size: 2em;
-  width: 20%
+  width: 20%;
 }
 
 .number, .stop, .minutes {
@@ -60,10 +60,11 @@ body {
   text-align: center;
   width: 15%;
   display: inline-block;
+  padding-left: 2px;
 }
 
 .stop{
-  width: 25%;
+  width: 30%;
   display: inline-block;
   text-align: center;
 }
@@ -75,6 +76,7 @@ body {
   justify-content: space-around;
   padding-top: 2em;
   padding-bottom: 2em;
+  align-items: center;
 }
 
 .group1{
@@ -82,7 +84,7 @@ body {
 }
 
 .minutes{
-  width: 35%;
+  width: 30%;
   display: inline-block;
   text-align: center;
 }
@@ -95,8 +97,9 @@ body {
 }
 #arrow{
   color: #FBFFF1;
-  padding-right: 1.5em;
+  padding-right: 2em;
   padding-top: 0.20em;
   font-size: 1.25em;
   text-align: center;
+  width: 20px;
 }
