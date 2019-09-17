@@ -3,11 +3,16 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #fff;
+
+}
 body {
   background-color: #1F2232;
   font-size:62.5%;
-    text-align: center;
-    width: 375px;
+  text-align: center;
+  width: 375px;
+  margin:auto;
 }
 
 #newroute{
