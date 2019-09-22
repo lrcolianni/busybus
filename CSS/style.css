@@ -11,7 +11,7 @@ html {
   width: 375px;
 }
 body {
-  background-color: #1F2232;
+  background-color: #20295B;
   font-size:62.5%;
   text-align: center;
   width: 375px;
@@ -55,13 +55,13 @@ body {
 }
 
 .number, .stop, .minutes {
-  color: #1F2232;
+  color: #000;
   font-size: 1.5em;
   text-align: left;
 }
 
 .bounds{
-  background-color: #1F2232;
+  background-color: #20295B;
   color: #F8F7EF;
   font-size: 1.75em;
   padding: 0.5em;
@@ -118,7 +118,7 @@ body {
   background-size: cover;
 }
 #arrow{
-  color: #FBFFF1;
+  color: #000;
   padding-right: 2em;
   padding-top: 0.20em;
   font-size: 1.25em;
