@@ -16,12 +16,12 @@ body {
   text-align: center;
   width: 375px;
   margin:auto;
+  font-family: "SF Display";
 }
 
 #newroute{
   text-align: center;
   font-size: 3em;
-  font-style: SF Pro Display;
   font-style: italic;
   color: #FBFFF1;
   padding-top: 1em;
