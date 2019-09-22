@@ -16,7 +16,7 @@ body {
   text-align: center;
   width: 375px;
   margin:auto;
-  font-family: "SF Display";
+  font-family: "SF Display", helvetica, sans-serif;
 }
 
 #newroute{
@@ -54,13 +54,14 @@ body {
 }
 
 .number, .stop, .minutes {
-  color: #FBFFF1;
+  color: #1F2232;
   font-size: 1.5em;
   text-align: left;
 }
 
 .bounds{
-  background-color: #FAEC8C;
+  background-color: #1F2232;
+  color: #F8F7EF;
   font-size: 1.75em;
   padding: 0.5em;
 }
@@ -79,6 +80,14 @@ body {
   font-weight: bold;
 }
 
+#reroute{
+  background-color: #C8545B;
+}
+
+#outofservice {
+  background-color: #626366
+}
+
 
 .group, .group1 {
   display: flex;
@@ -87,11 +96,13 @@ body {
   padding-top: 2em;
   padding-bottom: 2em;
   align-items: center;
+    background-color: #F8F7EF;
 }
 
 .group1{
   border-bottom: 2px solid #FBFFF1;
 }
+
 
 .minutes{
   width: 30%;
