@@ -1,99 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busy Bus</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
-  </head>
+</head>
   <body>
-    <img src="images/statusbar.png" alt="statusbar" class="statusbar" id="statusbar">
-
+        <img src="images/statusbar.png" alt="statusbar" class="statusbar" id="statusbar">
     <section class="heading">
       <div <i class="fas fa-chevron-left" class="nav" id="backarrow"></i>
       </div>
-      <h1 class="nav" id="newroute" >New Route</h1>
-      <i class="fas fa-plus" class="nav" id="plus"></i>
+        <h1 class="nav" id="newroute" >New Route</h1>
+        <i class="fas fa-plus" class="nav" id="plus"></i>
     </section>
-        <section class="heading">
-          <input id="washington" value="Washington and state" placeholder="Enter destination"</input>
-        </section>
-          <img src="images/map.jpeg" alt="map" class="map" id="map">
+    <section class="heading">
+        <input id="washington" value="Washington and state" placeholder="Enter destination"</input>
+    </section>
+        <img src="images/map.jpeg" alt="map" class="map" id="map">
     <section class="container">
       <div class="bounds" id="eastbound">
         <h1>Eastbound</h1>
       </div>
-        <div class="group1">
-          <h1 class="number" id="b124">124</h1>
-              <h1 class="stop" id="navypier">Navy Pier</h1>
-                  <h1 class="minutes" id="e10">10 minutes</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
-                </div>
-                <div class="group">
-          <h1 class="number" id="60">60</h1>
-              <h1 class="stop" id="randolph">Randolph/<br> Harbor​ ​Dr</h1>
-                  <h1 class="minutes" id="e20">20 minutes</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
+      <div class="group1">
+        <h1 class="number" id="b124">124</h1>
+        <h1 class="stop" id="navypier">Navy Pier</h1>
+        <h1 class="minutes" id="e10">10 minutes</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      </div>
+      <div class="group">
+        <h1 class="number" id="60">60</h1>
+        <h1 class="stop" id="randolph">Randolph/<br> Harbor​ ​Dr</h1>
+        <h1 class="minutes" id="e20">20 minutes</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
       <div class="bounds" id="northbound">
         <h1>Northbound</h1>
       </div>
-        <div class="group">
-          <h1 class="number" id="151">151</h1>
-              <h1 class="stop" id="clark">Clark/Devon</h1>
-                  <h1 class="minutes" id="n16">16 minutes</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
+      <div class="group">
+        <h1 class="number" id="151">151</h1>
+        <h1 class="stop" id="clark">Clark/Devon</h1>
+        <h1 class="minutes" id="n16">16 minutes</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
       <div class="bounds" id="southbound">
         <h1>Southbound</h1>
       </div>
       <div class="group1">
-          <h1 class="number" id="124">124</h1>
-              <h1 class="stop" id="snavypier">Navy Pier</h1>
-                  <h1 class="minutes" id="s10">10 minutes</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
-                  <div class="group">
-          <h1 class="number" id="j14">J14</h1>
-              <h1 class="stop" id="103rd">103rd/<br> Stony​ ​Island</h1>
-                  <h1 class="minutes" id="s15">15 minutes</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
+        <h1 class="number" id="124">124</h1>
+        <h1 class="stop" id="snavypier">Navy Pier</h1>
+        <h1 class="minutes" id="s10">10 minutes</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      <div class="group">
+        <h1 class="number" id="j14">J14</h1>
+        <h1 class="stop" id="103rd">103rd/<br> Stony​ ​Island</h1>
+        <h1 class="minutes" id="s15">15 minutes</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
       <div class="bounds" id="reroute">
         <h1>Reroute</h1>
       </div>
       <div class="group">
-          <h1 class="number" id="6x">6x</h1>
-              <h1 class="stop" id="jackson">Jackson Park<br>Express</h1>
-                  <h1 class="minutes" id="n/a">N/A</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
-    <div class="bounds" id="outofservice">
-      <h1>Out of Service</h1>
+        <h1 class="number" id="6x">6x</h1>
+        <h1 class="stop" id="jackson">Jackson Park<br>Express</h1>
+        <h1 class="minutes" id="n/a">N/A</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      <div class="bounds" id="outofservice">
+        <h1>Out of Service</h1>
       </div>
       <div class="group1">
-          <div class="service">
-          <h1 class="number" id="4">4</h1>
-              <h1 class="stop" id="cottage">Cottage Grove</h1>
-                  <h1 class="minutes" id="resume1">Resumes <br>at 12:10am</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                </div>
-              <div class="group1">
-          <h1 class="number" id="20">20</h1>
-              <h1 class="stop" id="madison">Madison</h1>
-                  <h1 class="minutes" id="resume2">Resumes <br>at 12:10am</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                  </div>
-                  <div class="group">
-          <h1 class="number" id="157">157</h1>
-              <h1 class="stop" id="streeterville">Streeterville/<br>Taylor</h1>
-                  <h1 class="minutes" id="resume3">Resumes <br>at 6:00am</h1>
-                  <i class="fas fa-chevron-right" id="arrow"></i>
-                </div>
-                </div>
+      <div class="service">
+        <h1 class="number" id="4">4</h1>
+        <h1 class="stop" id="cottage">Cottage Grove</h1>
+        <h1 class="minutes" id="resume1">Resumes <br>at 12:10am</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      <div class="group1">
+        <h1 class="number" id="20">20</h1>
+        <h1 class="stop" id="madison">Madison</h1>
+        <h1 class="minutes" id="resume2">Resumes <br>at 12:10am</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      <div class="group">
+        <h1 class="number" id="157">157</h1>
+        <h1 class="stop" id="streeterville">Streeterville/<br>Taylor</h1>
+        <h1 class="minutes" id="resume3">Resumes <br>at 6:00am</h1>
+        <i class="fas fa-chevron-right" id="arrow"></i>
+      </div>
+      </div>
     </section>
   </body>
 </html>
