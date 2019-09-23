@@ -30,7 +30,7 @@ body {
 }
 
 #washington {
-  color: #000;
+  color: #11151C;
   background-color: #fff;
   padding: 0.75em;
   margin-left: 2em;
@@ -55,7 +55,7 @@ body {
 }
 
 .number, .stop, .minutes {
-  color: #000;
+  color: #11151C;
   font-size: 1.5em;
   text-align: left;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 #reroute{
-  background-color: #C8545B;
+  background-color: #870000;
 }
 
 #outofservice {
@@ -118,7 +118,7 @@ body {
   background-size: cover;
 }
 #arrow{
-  color: #000;
+  color: #11151C;
   padding-right: 2em;
   padding-top: 0.20em;
   font-size: 1.25em;
